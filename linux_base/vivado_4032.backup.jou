@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep 20 20:26:26 2018
+# Process ID: 4032
+# Current directory: F:/ax7010/2017/course_s1/11_linux_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8956 F:\ax7010\2017\course_s1\11_linux_base\linux_base.xpr
+# Log file: F:/ax7010/2017/course_s1/11_linux_base/vivado.log
+# Journal file: F:/ax7010/2017/course_s1/11_linux_base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ax7010/2017/course_s1/11_linux_base/linux_base.xpr
+update_compile_order -fileset sources_1
+set_property part xc7z010clg400-1 [current_project]
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {*}] -log ip_upgrade.log
+startgroup
+set_property -dict [list CONFIG.PCW_UIPARAM_DDR_PARTNO {MT41J128M16 HA-125}] [get_bd_cells processing_system7_0]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3

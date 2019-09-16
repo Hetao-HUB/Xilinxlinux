@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Sep 20 13:17:04 2018
+# Process ID: 9384
+# Current directory: F:/ax7020/2017/course_s1/11_linux_base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9084 F:\ax7020\2017\course_s1\11_linux_base\linux_base.xpr
+# Log file: F:/ax7020/2017/course_s1/11_linux_base/vivado.log
+# Journal file: F:/ax7020/2017/course_s1/11_linux_base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/ax7020/2017/course_s1/11_linux_base/linux_base.xpr
+update_compile_order -fileset sources_1
+open_bd_design {F:/ax7020/2017/course_s1/11_linux_base/linux_base.srcs/sources_1/bd/design_1/design_1.bd}
+launch_sdk -workspace F:/ax7020/2017/course_s1/11_linux_base/linux_base.sdk -hwspec F:/ax7020/2017/course_s1/11_linux_base/linux_base.sdk/design_1_wrapper.hdf
